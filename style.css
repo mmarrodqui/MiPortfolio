@@ -1,8 +1,7 @@
-/* GENERAL */
-
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
 
 * {
+  transition: all .2s ease;
   margin: 0;
   padding: 0;
 }
@@ -19,14 +18,6 @@ html {
 p {
   color: rgb(105, 85, 105);
 }
-
-/* TRANSITION */
-
-* {
-  transition: all .2s ease;
-}
-
-/* DESKTOP NAV */
 
 nav,
 .nav-links {
@@ -61,8 +52,6 @@ a:hover {
   font-size: 2rem;
 }
 
-/* SECTIONS */
-
 section {
   padding-top: 4vh;
   min-height: 75vh;
@@ -78,8 +67,6 @@ section {
   gap: 4rem;
   height: 80%;
 }
-
-/* PROFILE */
 
 #profile {
   display: flex;
@@ -103,10 +90,6 @@ section {
   margin: auto 0;
 }
 
-.about-pic {
-  border-radius: 2rem;
-}
-
 .section__text {
   align-self: center;
   text-align: center;
@@ -128,8 +111,6 @@ section {
   text-align: center;
 }
 
-/* ICONS */
-
 .icon {
   cursor: pointer;
   height: 2rem;
@@ -138,8 +119,6 @@ section {
 .icon:hover {
   scale: 1.2;
 }
-
-/* BUTTONS */
 
 .btn-container {
   display: flex;
@@ -180,8 +159,6 @@ button {
   color: white;
 }
 
-/* ABOUT */
-
 #about {
   position: relative;
 }
@@ -213,14 +190,6 @@ button {
 .text-container p {
   line-height: 1.6;
 }
-
-.arrow {
-  position: absolute;
-  right: -5rem;
-  bottom: 2.5rem;
-}
-
-/* EXPERIENCE */
 
 #experience {
   position: relative;
@@ -257,8 +226,6 @@ article div {
   text-align: start;
 }
 
-/* PROJECTS */
-
 #projects {
   position: relative;
 }
@@ -285,8 +252,6 @@ article div {
   margin-bottom: 2rem;
 }
 
-/* CONTACT */
-
 #contact {
   display: flex;
   justify-content: center;
@@ -309,12 +274,6 @@ article div {
   align-items: center;
   gap: 0.5rem;
 }
-
-.email-icon {
-  height: 2.5rem;
-}
-
-/* FOOTER */
 
 footer {
   height: 26vh;
